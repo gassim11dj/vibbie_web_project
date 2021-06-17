@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(192, 192, 192);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+/* header section */
+header{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+/* Paragraph section */
+p{
+    width: 80%;
+    margin: 0px auto;
+}
+
+/* Form section */
+form{
+    width: 30%;
+    margin: 0px auto;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+}
+
+form h1{
+    text-decoration: underline;
+}
+
+form label{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    margin: 5px 0px;
+    text-align: initial;
+}
+
+form label input, form select{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    outline-width: none;
+    outline: none;
+    border-radius: 5px;
+    outline-color: gray;
+}
+
+form button{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: grey;
+    border: 1px solid grey;
+}
+
+/* End of form section */
+
+/* Table Section */
+table{
+    display: block;
+    width: 80%;
+    margin: 0px auto;
+    border-collapse: collapse;
+    border-color: gray;
+}
+
+th, tr{
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+/* End of table section */
+
+/* main section */
+main{
+    width: 80%;
+    margin: 0px auto;
+}
+/* End of main section */
